@@ -15,7 +15,7 @@ Grandes telas
     
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {/*Tablet*/
+@media (min-width: 768px) and (max-width: 992px) {/*Tablet*/
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -57,7 +57,7 @@ img#tv{
     display: none;
 }
 }
-@media screen and (min-width: 1600px) { /*Grandes Telas*/
+@media (min-width: 1600px) { /*Grandes Telas*/
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
